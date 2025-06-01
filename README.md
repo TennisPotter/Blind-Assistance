@@ -1,31 +1,64 @@
 # 🦯 Blind Assistance App
 
-A smart Android application designed to help visually impaired users by detecting common real-world objects using **TensorFlow Lite** and providing **real-time voice feedback**. It also keeps a history of detections using **Firebase**.
-
----
+An Android application that assists visually impaired users by detecting real-world objects using TensorFlow Lite and providing voice feedback. The app also stores detection history in Firebase.
 
 ## 📸 Features
 
-- 🧠 **Object Detection** – Identifies 20+ objects using pre-trained ML models.
-- 🔊 **Voice Feedback** – Speaks out the names of detected objects via Text-to-Speech.
-- ☁️ **Detection History** – Stores detected items in Firebase Realtime Database.
-- 📱 **Mobile Friendly** – Clean, accessible UI built using Kotlin and XML.
-- 🔐 **Offline Capable** – Uses on-device TensorFlow Lite model for fast response.
+- 🧠 Detects 20+ common objects using on-device ML (TensorFlow Lite)
+- 🔊 Real-time voice alerts for detected objects
+- ☁️ Saves detection history in Firebase
+- 📱 Clean UI with Kotlin and XML
+- 🔐 Offline capable
 
----
+## 🛠️ Tech Stack
+
+- Android (Kotlin, Java)
+- TensorFlow Lite (Object Detection)
+- Firebase (Realtime Database)
+- Text-to-Speech API
 
 ## 🚀 Getting Started
 
-### 📦 Prerequisites
+### Prerequisites
 
 - Android Studio Hedgehog or later
 - Gradle 8+
 - Android SDK 33+
-- Firebase account
 
-### 🛠️ Installation Steps
+### Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Tennispotter/BlindAssistance.git
-   cd BlindAssistance
+```bash
+git clone https://github.com/yourusername/BlindAssistance.git
+cd BlindAssistance
+```
+
+- Open in Android Studio and run on emulator or physical device.
+
+### Firebase Setup
+
+1. Create Firebase project.
+2. Enable Realtime Database.
+3. Download `google-services.json` and add to `/app`.
+
+## 📂 Project Structure
+
+```
+BlindAssistance/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/yourapp/
+│   │   │   └── res/
+│   │   └── AndroidManifest.xml
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
+```
+
+## 🤝 Contributing
+
+Pull requests welcome! For major changes, open an issue first to discuss.
+
+## 📄 License
+
+[MIT](LICENSE)
