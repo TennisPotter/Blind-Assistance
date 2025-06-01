@@ -1,6 +1,6 @@
 # 🦯 Blind Assistance App
 
-An Android application that assists visually impaired users by detecting real-world objects using TensorFlow Lite and providing voice feedback. The app also stores detection history in Firebase.
+Android application that assists visually impaired users by detecting real-world objects using TensorFlow Lite and providing voice feedback. The app also stores detection history in Firebase.
 
 ## 📸 Features
 
@@ -28,7 +28,7 @@ An Android application that assists visually impaired users by detecting real-wo
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/BlindAssistance.git
+git clone https://github.com/TennisPotter/BlindAssistance.git
 cd BlindAssistance
 ```
 
@@ -58,6 +58,12 @@ BlindAssistance/
 ## 🤝 Contributing
 
 Pull requests welcome! For major changes, open an issue first to discuss.
+
+🙋‍♂️ About the Developer
+Developed by S. TENNIS MCA,
+💻 Passionate about Software and Android development.
+📫 Reach me at: tennisoffcial@gmail.com
+🌐 GitHub | LinkedIn
 
 ## 📄 License
 
